@@ -1,7 +1,8 @@
 version: "3.9"
 services:
   develop:
+    platform: linux/amd64
     build:
       context: .
-    stdin_open: true 
+    stdin_open: true
     tty: true
